@@ -1,0 +1,11 @@
+public class main {
+    public static void main(string[] args){
+        Libro libro1 = new Libro(1,"El principito","Saint-Expery","fantasia");
+        Alumno alumno1 = new Alumno("Valentina, "7mo 5ta");
+
+        #pedir prestamo 
+        Prestamo p = alumno1.pedir.Material(libro1);
+        #devolver Libro
+        alumno1.devolverMaterial(libro1);
+    }
+}
